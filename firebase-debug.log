@@ -1,0 +1,19 @@
+[debug] [2019-08-25T20:12:33.501Z] ----------------------------------------------------------------------
+[debug] [2019-08-25T20:12:33.505Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Khatumal\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js use --add
+[debug] [2019-08-25T20:12:33.506Z] CLI Version:   7.2.4
+[debug] [2019-08-25T20:12:33.506Z] Platform:      win32
+[debug] [2019-08-25T20:12:33.506Z] Node Version:  v10.15.3
+[debug] [2019-08-25T20:12:33.507Z] Time:          Mon Aug 26 2019 01:12:33 GMT+0500 (Pakistan Standard Time)
+[debug] [2019-08-25T20:12:33.507Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-25T20:12:33.552Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-25T20:12:33.553Z] > authorizing via signed-in user
+[debug] [2019-08-25T20:12:33.563Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects?pageSize=1000  
+ 
+[debug] [2019-08-25T20:12:35.230Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-25T20:13:02.137Z] Error: kill ENOSYS
+    at process.kill (internal/process/per_thread.js:198:13)
+    at process.listener (C:\Users\Khatumal\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\signal-exit\index.js:95:15)
+    at process.emit (events.js:189:13)
+[error] 
+[error] Error: An unexpected error has occurred.

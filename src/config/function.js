@@ -37,7 +37,7 @@ function api() {
 
 
 
-var seconds = 6
+var seconds = 600
 let Timer = () => {
   return new Promise((resolve, reject) => {
     var minutes = Math.round((seconds - 30) / 60),
